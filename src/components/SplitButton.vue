@@ -40,7 +40,9 @@ export default {
         }
     },
     methods: {
-       
+        handleClick: function() {
+            this.$emit('gameMode')
+        }
     }
 };
 </script>
